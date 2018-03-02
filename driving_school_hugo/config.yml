@@ -1,0 +1,123 @@
+baseurl: "https://example.org/"
+title: "Conference name"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: "UA-9232216-1"
+
+params:
+  # Conference info
+  Name: "International Driving School"
+  Description: "Conference description"
+  Date: "Located In"
+  #Price: "" # If your event is free, just comment this line
+  Venue: "East Brunswick"
+  Address: "East Brunswick"
+  City:  "Sayreville"
+  State: "New Jersey"
+  #Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "AIzaSyC0jFLRn19N4W1JEStI8BmDsQx4yalhu1w"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - location
+    - testimonials
+    - schedule
+    #- sponsors
+    #- partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    testimonials: "Testimonials"
+    schedule: "Schedule"
+    #sponsors: "Sponsors"
+    #partners: "Partners"
+    #contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  #CallToAction:
+    #text: "Register now!"
+    #link: "http://register.example.com"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  #ForkButton:
+    #repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Sponsors
+  #Sponsors:
+   # - name: "Hugo"
+    #  logo: "/img/hugo.png"
+     # url: "http://gohugo.io"
+
+  # List of Partners
+  #Partners:
+    #- name: "Hugo"
+     # logo: "/img/hugo.jpg"
+      #url: "https://gohugo.io"
+    #- name: "BrazilJS"
+     # logo: "/img/partner.png"
+      #url: "http://braziljs.org"
+
+  # The entire schedule
+  Schedule:
+    - name: "Check-in / Breakfast"
+      time: "9h00"
+
+    - name: "Dhana"
+      photo: "/img/speaker.jpg"
+      bio: "Thank you Mark, your teachings are very good. Thank you so much for your instruction, patience and time. I have passed my driving license road test."
+      company: "Linux Foundation"
+      link:
+        href: "http://twitter.com/linus"
+        text: "@linus"
+      presentation:
+        title: "Digging into a Linux Kernel"
+        description: "Thank you Mark, I got my driving license. Thank you so much for your instruction, patience and time. You did a great Job."
+        time: "10h00"
+
+    - name: "Sarvan"
+      photo: "/img/speaker2.jpg"
+      bio: "The techniques taught were very useful and the methodology used was just excellent. I enjoyed it thoroughly. Will recommend it without any doubt."
+      company: "Microsoft"
+      link:
+        href: "http://github.com/billy95"
+        text: "@billy95"
+      presentation:
+        title: "Introducing Windows 12"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "11h00"
+
+    - name: "Lunch"
+      time: "12h00"
+
+    - name: "George"
+      photo: "/img/speaker3.jpg"
+      bio: "I just wanted to tell you that I really appreciated the manner in which classes were conducted. It was extremely professional and well organized. I would be happy to recommend your school to my friends and colleagues!"
+      company: "Delta Command"
+      link:
+        href: "http://twitter.com/littlechuck"
+        text: "@littlechuck"
+      presentation:
+        title: "How to kill a elephant with one finger"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "13h00"
+
+    - name: "Rihanna"
+      photo: "/img/speaker.jpg"
+      bio: "Really gives you practical knowldge and driving skills that you can use not just for passing your test but also after that is done"
+      company: "Apple, Inc."
+      link:
+        href: "http://github.com/stevie"
+        text: "@stevie"
+      presentation:
+        title: "Presenting iPad"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
+
+   
